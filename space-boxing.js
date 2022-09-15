@@ -25,22 +25,8 @@ if(platentNumber === 1){
 }
 
 
-
-
-
-
-
-
-
-// relativeGravitys === "*"
-//         let results = userWeight * num2
-//         console.log(num1 + " + " + num2 + " = " + results)
-    
-
 let userWeight = Number(prompt('Enter your weight:'))
 
-
-// VenusGravity = userWeight * 0.78
 
 if (platentNumber === 1){
     console.log("You need to weight: " + userWeight * 0.78 + " to make weight in Venus!")
