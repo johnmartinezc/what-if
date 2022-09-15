@@ -10,17 +10,17 @@ let platentNumber = Number(prompt('Enter planet number:'))
 let result = true
 
 if (platentNumber === 1){
-    console.log("You need to weight: " + userWeight * 0.78 + " to make weight in Venus!")
+    console.log("You need to weight: " + userWeight * 0.78 + "LB to make weight in Venus!")
 }else if (platentNumber === 2){
-    console.log("You need to weight: " + userWeight * 0.39 + " to make weight in Mars!")
+    console.log("You need to weight: " + userWeight * 0.39 + "LB to make weight in Mars!")
 }else if (platentNumber === 3){
-    console.log("You need to weight: " + userWeight * 2.65 + " to make weight in Jupiter!")
+    console.log("You need to weight: " + userWeight * 2.65 + "LB to make weight in Jupiter!")
 }else if (platentNumber === 4){
-    console.log("You need to weight: " + userWeight * 1.17 + " to make weight in Saturn!")
+    console.log("You need to weight: " + userWeight * 1.17 + "LB to make weight in Saturn!")
 }else if (platentNumber === 5){
-    console.log("You need to weight: " + userWeight * 1.05 + " to make weight in Uranus!")
+    console.log("You need to weight: " + userWeight * 1.05 + "LB to make weight in Uranus!")
 }else if (platentNumber === 6){
-    console.log("You need to weight: " + userWeight * 1.23    + " to make weight in Neptune!")
+    console.log("You need to weight: " + userWeight * 1.23 + "LB to make weight in Neptune!")
 }
 
 
