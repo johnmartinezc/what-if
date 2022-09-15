@@ -1,5 +1,7 @@
 const prompt = require('prompt-sync')
 ({sigint: true})
 
-let age = Number(prompt('Enter your age:'))
-console.log(age)
+let numberOfStudents = Number(prompt('Enter number of students: '))
+console.log(numberOfStudents)
+
+ 

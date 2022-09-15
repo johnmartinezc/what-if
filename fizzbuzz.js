@@ -6,7 +6,7 @@ console.log(number)
 
 let f = "fizz";
 let b = "buzz";
-for (let num = 1; num <=700 ; num++) {
+for (let num = 1; num <=50 ; num++) {
     if (num% 3 === 0 && num % 5 ===0){
     console.log(num + f + b);
                 }
@@ -16,7 +16,7 @@ for (let num = 1; num <=700 ; num++) {
     else if (num % 3 === 0){
     console.log(num+f);
                 }
-    else {
-    console.log(num);
-                }
+    // else {
+    // console.log(num);
+    //             }
             }
