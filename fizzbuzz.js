@@ -15,6 +15,5 @@ for (let num = 1; num <=50 ; num++) {
                 }
     else if (num % 3 === 0){
     console.log(num+f);
-                }
-    
+                }    
             }

@@ -4,8 +4,6 @@ const prompt = require('prompt-sync')
 let numberedDay = Number(prompt('Enter the number for the day:'))
 
 
-let result = true
-
 if(numberedDay === 1){
     console.log("Monday")
 }else if(numberedDay === 2){
